@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Alexamara Marina Group Maintenance Homepage</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="SHORTCUT ICON" href="mylogo.ico"/>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script  type='text/javascript'>
+		$(document).ready(function(){
+			$(".home").hover(function() {
+				$(this).attr("src","buttons/back-home2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/back-home.JPG");
+			});
+			$(".marina").hover(function() {
+				$(this).attr("src","buttons/marina2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/marina.JPG");
+			});
+			$(".owner").hover(function() {
+				$(this).attr("src","buttons/owner2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/owner.JPG");
+			});
+			$(".marina_slip").hover(function() {
+				$(this).attr("src","buttons/marina_slip2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/marina_slip.JPG");
+			});
+			$(".category").hover(function() {
+				$(this).attr("src","buttons/service-cat2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/service-cat.JPG");
+			});
+			$(".request").hover(function() {
+				$(this).attr("src","buttons/request2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/request.JPG");
+			});			
+		});
+	</script>
+</head>
+
+
+<body>
+
+
+<table class="layout" height="600px" align="center">
+	<tr>
+		<td  class="header">
+			<table>
+			<tr>
+				<td class="header" colspan="2">
+					<img alt="header" src="header.JPG" />
+					<a href="index.html"><img alt="back to home" class="home" src="buttons/back-home.JPG" /></a>
+					<br />
+					<h1>Maintenance</h1>
+					<hr style="border-top: dotted 1px;" />
+					<p>Please select which table within the database <br/>that you would like to edit.</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p><a href="maintenance/marina.php"><img alt="marina button" class="marina" src="buttons/marina.JPG" /></a></p>
+					<p><a href="maintenance/owner.php"><img alt="owner button" class="owner" src="buttons/owner.JPG" /></a></p>
+					<p><a href="maintenance/marina_slip.php"><img alt="marina slip button" class="marina_slip" src="buttons/marina_slip.JPG" /></a></p>
+					<p><a href="maintenance/category.php"><img alt="service category button" class="category" src="buttons/service-cat.JPG" /></a></p>
+					<p><a href="maintenance/request.php"><img alt="service request button" class="request" src="buttons/request.JPG" /></a></p>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
+
+
+
