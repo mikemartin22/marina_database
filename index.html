@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Alexamara Marina Group Homepage</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="SHORTCUT ICON" href="mylogo.ico"/>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script  type='text/javascript'>
+		$(document).ready(function(){
+			$(".maintenance").hover(function() {
+				$(this).attr("src","buttons/main-button2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/main-button.JPG");
+			});
+			$(".report").hover(function() {
+				$(this).attr("src","buttons/report-button2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/report-button.JPG");
+			});		
+		});
+	</script>
+</head>
+
+
+<body>
+
+
+<table class="layout" height="600px" align="center">
+	<tr>
+		<td  class="header">
+			<table>
+			<tr>
+				<td class="header" colspan="2">
+					<img alt="header" src="header.JPG" />
+					<br/>
+					<br/>
+					<marquee class="mymarquee" scrollamount="6" behavior="alternate" direction="right" width="700">
+						<h3>Welcome to the Alexamara Marina Group Database</h3>
+					</marquee>
+					<p>Please select Maintenance in order to edit data, <br/>or reporting in order to query data.</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-top:30px;">
+					<a href="maintenance.html"><img alt="maintanence button" class="maintenance" src="buttons/main-button.JPG" /></a>
+				</td>
+				<td style="padding-top:30px;">
+					<a href="reporting.html"><img alt="reporting button" class="report" src="buttons/report-button.JPG" /></a>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
+
+
+
+
+
