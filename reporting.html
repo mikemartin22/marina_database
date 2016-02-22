@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Alexamara Marina Group Reporting Homepage</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="SHORTCUT ICON" href="mylogo.ico"/>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script  type='text/javascript'>
+		$(document).ready(function(){
+			$(".home").hover(function() {
+				$(this).attr("src","buttons/back-home2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/back-home.JPG");
+			});
+			$(".marina").hover(function() {
+				$(this).attr("src","buttons/queries/marina2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/queries/marina.JPG");
+			});
+			$(".owner").hover(function() {
+				$(this).attr("src","buttons/queries/owner2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/queries/owner.JPG");
+			});
+			$(".marina_slip").hover(function() {
+				$(this).attr("src","buttons/queries/marina_slip2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/queries/marina_slip.JPG");
+			});
+			$(".category").hover(function() {
+				$(this).attr("src","buttons/queries/category2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/queries/category.JPG");
+			});
+			$(".request").hover(function() {
+				$(this).attr("src","buttons/queries/request2.JPG");
+					}, function() {
+				$(this).attr("src","buttons/queries/request.JPG");
+			});			
+		});
+	</script>
+</head>
+
+
+<body>
+
+
+<table class="layout" height="600px" align="center">
+	<tr>
+		<td  class="header">
+			<table>
+			<tr>
+				<td class="header" colspan="2">
+					<img alt="header" src="header.JPG" />
+					<a href="index.html"><img alt="back to home" class="home" src="buttons/back-home.JPG" /></a>
+					<br />
+					<h1>Reporting</h1>
+					<hr style="border-top: dotted 1px;" />
+					<p>Please select which table within the database that <br/>you would like to query data from.</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p><a href="reporting/marina.php"><img alt="marina button" class="marina" src="buttons/queries/marina.JPG" /></a></p>
+					<p><a href="reporting/owner.php"><img alt="owner button" class="owner" src="buttons/queries/owner.JPG" /></a></p>
+					<p><a href="reporting/marina_slip.php"><img alt="marina slip button" class="marina_slip" src="buttons/queries/marina_slip.JPG" /></a></p>
+					<p><a href="reporting/category.php"><img alt="service category button" class="category" src="buttons/queries/category.JPG" /></a></p>
+					<p><a href="reporting/request.php"><img alt="service request button" class="request" src="buttons/queries/request.JPG" /></a></p>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
+
+
+
