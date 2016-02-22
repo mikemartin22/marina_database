@@ -1,0 +1,154 @@
+body
+{
+	
+    background-image: url("waves.jpg");
+	
+}
+
+.header
+{
+    vertical-align:top;
+}
+
+.layout
+{
+    vertical-align:top;
+    align: right;
+    width: 628px;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+    background: -webkit-radial-gradient(royalblue, navy); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(royalblue, navy); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(royalblue, navy); /* For Fx 3.6 to 15 */
+    background: radial-gradient(royalblue, navy); /* Standard syntax (must be last) */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=royalblue, endColorstr=navy);
+}
+
+.mymarquee
+{
+    color:white;
+    background: -webkit-radial-gradient(blue, red, white); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(blue, red, white); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(blue, red, white); /* For Fx 3.6 to 15 */
+    background: radial-gradient(blue, red, white); /* Standard syntax (must be last) */
+}
+
+h1
+{
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: White;
+		
+}
+
+input.delete {
+    background-image: url('buttons/delete.JPG');
+    cursor: pointer;
+    width: 142px;
+    height: 44px;
+}
+
+input.retrieve {
+    background-image: url('buttons/retrieve.JPG');
+    cursor: pointer;
+    width: 155px;
+    height: 44px;
+}
+
+input.modify {
+    background-image: url('buttons/modify.JPG');
+    cursor: pointer;
+    width: 148px;
+    height: 44px;
+}
+
+input.clear {
+    background-image: url('buttons/clear.JPG');
+    cursor: pointer;
+    width: 143px;
+    height: 43px;
+}
+
+input.insert {
+    background-image: url('buttons/insert.JPG');
+    cursor: pointer;
+    width: 130px;
+    height: 44px;
+}
+
+input.delete:hover {
+    background-image: url('buttons/delete2.JPG');
+    cursor: pointer;
+    width: 142px;
+    height: 44px;
+}
+
+input.retrieve:hover {
+    background-image: url('buttons/retrieve2.JPG');
+    cursor: pointer;
+    width: 155px;
+    height: 44px;
+}
+
+input.modify:hover {
+    background-image: url('buttons/modify2.JPG');
+    cursor: pointer;
+    width: 148px;
+    height: 44px;
+}
+
+input.clear:hover {
+    background-image: url('buttons/clear2.JPG');
+    cursor: pointer;
+    width: 143px;
+    height: 43px;
+}
+
+input.insert:hover {
+    background-image: url('buttons/insert2.JPG');
+    cursor: pointer;
+    width: 130px;
+    height: 44px;
+}
+
+.main {
+    background-image: url('buttons/back-main.JPG');
+    cursor: pointer;
+    width: 426px;
+    height: 48px;
+}
+
+.main:hover {
+    background-image: url('buttons/back-main2.JPG');
+    cursor: pointer;
+    width: 426px;
+    height: 48px;
+}
+
+.list {
+    background-image: url('buttons/list.JPG');
+    cursor: pointer;
+    width: 161px;
+    height: 45px;
+}
+
+.list:hover {
+    background-image: url('buttons/list2.JPG');
+    cursor: pointer;
+    width: 161px;
+    height: 45px;
+}
+
+.list_all {
+    background-image: url('buttons/listall.JPG');
+    cursor: pointer;
+    width: 212px;
+    height: 46px;
+}
+
+.list_all:hover {
+    background-image: url('buttons/listall2.JPG');
+    cursor: pointer;
+    width: 212px;
+    height: 46px;
+}
